@@ -1,7 +1,0 @@
--classpath '/opt/gradle-projects/hello-java/build/classes/java/main:/opt/gradle-projects/hello-java/build/resources/main:/root/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.13/7fcf30c25b8f4a9379b9dad0d3f487b25272c026/slf4j-api-1.7.13.jar'
--d '/opt/gradle-projects/hello-java/build/docs/javadoc'
--doctitle 'myapp API'
--quiet 
--windowtitle 'myapp API'
-'/opt/gradle-projects/hello-java/src/main/java/com/packtpub/ge/hello/Main.java'
-'/opt/gradle-projects/hello-java/src/main/java/com/packtpub/ge/hello/GreetingService.java'

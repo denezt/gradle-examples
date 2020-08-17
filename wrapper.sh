@@ -7,7 +7,7 @@ option="${1}"
 compile_and_build(){
 	if [ -e 'gradlew' -a -e 'build.gradle' ];
 	then
-		for cmd in 'compileJava' 'build';
+		for cmd in 'clean' 'compileJava' 'build' 'distZip';
 		do
 			./gradlew --no-daemon "${cmd}" --stacktrace --info
 		done
