@@ -11,12 +11,12 @@
 ``` sh
 ./gradlecmd.sh -h
 
-Gradle Commander
-Initiate Gradle	 [ -i, -init, --init ]
-Clean Build	 [ -clean, --clean ]
-Clean All	 [ -r, -remove, --remove ]
-Reinit All	 [ -ri, -reinit, --reinit ]
-Help Menu	 [ -h, -help, --help ]
+# Gradle Commander
+# Initiate Gradle	[ -i, -init, --init ]
+# Clean Build		[ -clean, --clean ]
+# Clean All		[ -r, -remove, --remove ]
+# Reinit All		[ -ri, -reinit, --reinit ]
+# Help Menu		[ -h, -help, --help ]
 ```
 
 ``` sh
@@ -25,13 +25,11 @@ Help Menu	 [ -h, -help, --help ]
 ```
 
 ``` sh
-Package Wrapper
+# Package Wrapper
 ./wrapper.sh -help
-```
 
-``` sh
-Create Package	[ -package, --package ]
-Test Package	[ -test, --test ]
+# Create Package [ -package, --package ]
+# Test Package	 [ -test, --test ]
 ```
 
 ``` sh
