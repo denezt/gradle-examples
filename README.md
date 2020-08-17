@@ -20,10 +20,22 @@ Help Menu	 [ -h, -help, --help ]
 ```
 
 ``` sh
+# Remove older build sessions
+./gradlecmd.sh -clean 
+```
+
+``` sh
 Package Wrapper
+./wrapper.sh -help
 ```
 
 ``` sh
 Create Package	[ -package, --package ]
 Test Package	[ -test, --test ]
+```
+
+``` sh
+# Build/Rebuild the package with all 
+# distribution and report files
+./wrapper.sh -package
 ```
